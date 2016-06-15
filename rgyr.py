@@ -11,6 +11,7 @@ import numpy as np
 import MDAnalysis
 import sys
 from sel_list import *
+from distance_functions import *
 
 system = sys.argv[1]
 pdb = sys.argv[2]
