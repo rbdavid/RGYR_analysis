@@ -1,6 +1,8 @@
 
 # To do file:
-# -- switch script from running on a single trajectory, using a bash script to iterate over many trajectories; implement the same structure I use in RMSD analysis scripts to loop over many trajectories in one script;
+# DONE -- switch script from running on a single trajectory, using a bash script to iterate over many trajectories; implement the same structure I use in RMSD analysis scripts to loop over many trajectories in one script;
+# -- add timing functionality to measure how long is spent on the calculation; print these results to the output file...
+
 
 # I've noticed that this script runs slowly when I have numerous instances of it running on my desktop; I think this is because there is so much creating/writing to file and switching btw python and bash scripts; 
 
