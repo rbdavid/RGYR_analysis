@@ -59,6 +59,7 @@ important = u.select_atoms('not (resname WAT or resname Na+ or resname Cl-)')
 rest =  u.select_atoms('not (resname WAT or resname Na+ or resname Cl- or protein)')
 num_res = len(rest.residues)
 
+nSteps = 0
 out = open('%s.rgyr.dat' %(system), 'w')
 while start <= end:
 	u.load_new('%sproduction.%s/production.%s.dcd' %(traj_loc,start,start))
